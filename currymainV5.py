@@ -5,7 +5,7 @@ import pandas as pd
 # checks if numbers entered
 def num_checker(question, low, high):
     while True:
-        error = "Please Enter A Valid Phone Number"
+        error = "Please Enter A Valid Number"
         try:
             user_response = int(input(question))
             if low <= user_response <= high:
